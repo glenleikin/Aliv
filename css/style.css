@@ -1,0 +1,49 @@
+:root{
+    --dark: #403C3D;
+    --light: #fdfbfb;
+    --lilac: #b8b5ff;
+}
+
+body{
+    font-family: 'Spartan', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+}  
+
+.bg{
+    background-image: url('./images/bg.jpg');
+      height: 100vh;
+}
+.navbar{
+    min-height: 5rem;
+}
+#navbar-custom { 
+    background-color: var(--lilac);
+}  
+
+#navbar-custom .navbar-brand, 
+#navbar-custom .navbar-text { 
+    color: var(--dark);
+} 
+
+.bg-dark {background-color: var(--dark) !important;}
+.bg-grey {background-color: var(--grey) !important;}
+.bg-light {background-color: var(--light) !important;}
+.bg-lilac {background-color: var(--lilac) !important;}
+
+.text-dark{color: var(--dark) !important;}
+
+.py-6{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.btn{
+    padding: .75rem 1rem;
+    border-radius: .1rem;
+    font-weight: 700;
+}
+
+.btn-lilac{background-color: #b8b5ff;
+           color: var(--light);        
+}  
